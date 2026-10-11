@@ -1,0 +1,47 @@
+<!DOCTYPE Robei>
+<Module Class="module" Code="" Color="#d3d3d3" Device="xc7a50tfgg484" Family="artix7" Height="1080" Name="car_318" Parent="0" Type="const" Vendor="AMD" Width="1600" X="0" Y="0">
+ <Module Category="Current" Class="TOP" Code="" Color="antiquewhite" Comment="" Height="673" Name="TOP1" Parameters="" Parent="car_318" Type="model" Width="458" X="583.5" Y="219">
+  <Port Color="#faebd7" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="input" Name="clk" Parent="TOP1" Side="left" Width="30" X="-0.0655022" Y="0.102526"/>
+  <Port Color="#00ffff" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="input" Name="rst_n" Parent="TOP1" Side="left" Width="30" X="-0.0655022" Y="0.22734"/>
+  <Port Color="#e9967a" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="input" Name="sensor_left" Parent="TOP1" Side="left" Width="30" X="-0.0655022" Y="0.476969"/>
+  <Port Color="#cd5c5c" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="input" Name="sensor_right" Parent="TOP1" Side="left" Width="30" X="-0.0655022" Y="0.601783"/>
+  <Port Color="#bdb76b" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="output" Name="left_motor_en" Parent="TOP1" Side="right" Width="30" X="0.934498" Y="0.22734"/>
+  <Port Color="#dc143c" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="output" Name="left_motor_go" Parent="TOP1" Side="right" Width="30" X="0.934498" Y="0.352155"/>
+  <Port Color="#b8860b" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="output" Name="left_motor_back" Parent="TOP1" Side="right" Width="30" X="0.934498" Y="0.476969"/>
+  <Port Color="#bdb76b" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="output" Name="right_motor_en" Parent="TOP1" Side="right" Width="30" X="0.934498" Y="0.601783"/>
+  <Port Color="#0000ff" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="output" Name="right_motor_go" Parent="TOP1" Side="right" Width="30" X="0.934498" Y="0.726597"/>
+  <Port Color="#8a2be2" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="output" Name="right_motor_back" Parent="TOP1" Side="right" Width="30" X="0.934498" Y="0.851412"/>
+  <Port Color="#556b2f" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="input" Name="ir_left" Parent="TOP1" Side="left" Width="30" X="-0.0655022" Y="0.726597"/>
+  <Port Color="#006400" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="input" Name="ir_right" Parent="TOP1" Side="left" Width="30" X="-0.0655022" Y="0.851412"/>
+  <Port Color="#5f9ea0" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="input" Name="uart_rx" Parent="TOP1" Side="left" Width="30" X="-0.0655022" Y="0.352155"/>
+  <Port Color="#7fff00" Connect="" Datasize="1" Datatype="wire" Description="" Height="30" Inout="output" Name="at_pin" Parent="TOP1" Side="right" Width="30" X="0.934498" Y="0.102526"/>
+ </Module>
+ <Port Color="#faebd7" Description="" Drive="" Height="30" Name="Y18" Parent="car_318" Pull="none" Side="left" Voltage="LVCMOS33" Width="30" X="-0.01875" Y="0.111111"/>
+ <Port Color="#00ffff" Description="" Drive="" Height="30" Name="J20" Parent="car_318" Pull="none" Side="left" Voltage="LVCMOS33" Width="30" X="-0.01875" Y="0.236111"/>
+ <Port Color="#e9967a" Description="" Drive="" Height="30" Name="J5" Parent="car_318" Pull="none" Side="left" Voltage="LVCMOS33" Width="30" X="-0.01875" Y="0.486111"/>
+ <Port Color="#cd5c5c" Description="" Drive="" Height="30" Name="P5" Parent="car_318" Pull="none" Side="left" Voltage="LVCMOS33" Width="30" X="-0.01875" Y="0.611111"/>
+ <Port Color="#bdb76b" Description="" Drive="" Height="30" Name="K19" Parent="car_318" Pull="none" Side="right" Voltage="LVCMOS33" Width="30" X="0.98125" Y="0.236111"/>
+ <Port Color="#cd5c5c" Description="" Drive="" Height="30" Name="N20" Parent="car_318" Pull="none" Side="right" Voltage="LVCMOS33" Width="30" X="0.98125" Y="0.361111"/>
+ <Port Color="#b8860b" Description="" Drive="" Height="30" Name="R19" Parent="car_318" Pull="none" Side="right" Voltage="LVCMOS33" Width="30" X="0.98125" Y="0.486111"/>
+ <Port Color="#0000ff" Description="" Drive="" Height="30" Name="G22" Parent="car_318" Pull="none" Side="right" Voltage="LVCMOS33" Width="30" X="0.98125" Y="0.736111"/>
+ <Port Color="#bdb76b" Description="" Drive="" Height="30" Name="D21" Parent="car_318" Pull="none" Side="right" Voltage="LVCMOS33" Width="30" X="0.98125" Y="0.611111"/>
+ <Port Color="#8a2be2" Description="" Drive="" Height="30" Name="J22" Parent="car_318" Pull="none" Side="right" Voltage="LVCMOS33" Width="30" X="0.98125" Y="0.861111"/>
+ <Port Color="#556b2f" Description="" Drive="" Height="30" Name="H3" Parent="car_318" Pull="none" Side="left" Voltage="LVCMOS33" Width="30" X="-0.01875" Y="0.736111"/>
+ <Port Color="#228b22" Description="" Drive="" Height="30" Name="M3" Parent="car_318" Pull="none" Side="left" Voltage="LVCMOS33" Width="30" X="-0.01875" Y="0.861111"/>
+ <Port Color="#5f9ea0" Description="" Drive="" Height="30" Name="U21" Parent="car_318" Pull="none" Side="left" Voltage="LVCMOS33" Width="30" X="-0.01875" Y="0.361111"/>
+ <Port Color="#7fff00" Description="" Drive="" Height="30" Name="U20" Parent="car_318" Pull="none" Side="right" Voltage="LVCMOS33" Width="30" X="0.98125" Y="0.111111"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>clk" Name="0" Parent="car_318" To="car_318>Y18"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>rst_n" Name="0" Parent="car_318" To="car_318>J20"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>sensor_left" Name="0" Parent="car_318" To="car_318>J5"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>sensor_right" Name="0" Parent="car_318" To="car_318>P5"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>left_motor_en" Name="0" Parent="car_318" To="car_318>K19"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>left_motor_go" Name="0" Parent="car_318" To="car_318>N20"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>left_motor_back" Name="0" Parent="car_318" To="car_318>R19"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>right_motor_en" Name="0" Parent="car_318" To="car_318>D21"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>right_motor_go" Name="0" Parent="car_318" To="car_318>G22"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>right_motor_back" Name="0" Parent="car_318" To="car_318>J22"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>ir_left" Name="0" Parent="car_318" To="car_318>H3"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>ir_right" Name="0" Parent="car_318" To="car_318>M3"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>uart_rx" Name="0" Parent="car_318" To="car_318>U21"/>
+ <Wire Datasize="1" Datatype="wire" From="car_318#TOP1>at_pin" Name="0" Parent="car_318" To="car_318>U20"/>
+</Module>

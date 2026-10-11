@@ -1,0 +1,27 @@
+# Robei 编译产物
+build/
+
+# Vivado 生成文件与缓存（可重新生成，无需上传）
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.rdf
+*.rpt
+*.dcp
+*.pb
+*.ipxact
+vivado.jou
+vivado.log
+vivado_*.backup.jou
+vivado_*.backup.log
+*.wdf
+*.backup
+*.xpr.bak
+
+# 操作系统文件
+.DS_Store
+Thumbs.db

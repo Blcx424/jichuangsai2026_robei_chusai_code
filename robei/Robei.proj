@@ -1,0 +1,20 @@
+<Robei name="Robei" parent="0" type="proj">
+ <model name="model" parent="Robei" type="folder">
+  <pwm_generator.model name="pwm_generator.model" parent="model" type="model"/>
+  <TOP.model name="TOP.model" parent="model" type="model"/>
+  <blue_tooth.model name="blue_tooth.model" parent="model" type="model"/>
+  <packet_parser.model name="packet_parser.model" parent="model" type="model"/>
+  <high_level_control.model name="high_level_control.model" parent="model" type="model"/>
+  <motor_control.model name="motor_control.model" parent="model" type="model"/>
+  <motor_direction.model name="motor_direction.model" parent="model" type="model"/>
+ </model>
+ <test name="test" parent="Robei" type="folder">
+  <pwm_generator_test.test name="pwm_generator_test.test" parent="test" type="test"/>
+  <TOP_test.test name="TOP_test.test" parent="test" type="test"/>
+  <TOP1_test.test name="TOP1_test.test" parent="test" type="test"/>
+ </test>
+ <const name="const" parent="Robei" type="folder">
+  <car_318.const name="car_318.const" parent="const" type="const"/>
+ </const>
+ <verilog name="verilog" parent="Robei" type="folder"/>
+</Robei>
